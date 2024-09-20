@@ -96,6 +96,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
                         .accessToken(accessToken)
                         .refreshToken(refreshToken)
                         .build();
+
                 new ObjectMapper().writeValue(response.getOutputStream(), authResponse);
             }
         }
