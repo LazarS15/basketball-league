@@ -1,0 +1,58 @@
+# application-deployment.yml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: basketball-league-deployment
+  labels:
+    app: basketball-league
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: basketball-league
+  template:
+    metadata:
+      labels:
+        app: basketball-league
+    spec:
+      containers:
+        - name: basketball-league
+          image: basketball-league:v1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8081
+          env:
+            - name: USER_NAME
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: postgres-username
+            - name: PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: postgres-password
+            - name: DB_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: postgres-config
+                  key: postgres-url
+            - name: DB_NAME
+              value: basketball_league
+            - name: SPRING_PROFILES_ACTIVE
+              value: kubernetes
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: basketball-league-service
+spec:
+  type: NodePort
+  selector:
+    app: basketball-league
+  ports:
+    - protocol: TCP
+      port: 8081
+      targetPort: 8081
+      nodePort: 30000
+

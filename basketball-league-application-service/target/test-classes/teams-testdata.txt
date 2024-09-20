@@ -1,0 +1,2 @@
+1,Los Angeles Lakers,path/to/lakers_image.jpg,path/to/lakers_logo.jpg,Staples Center
+2,Golden State Warriors,path/to/warriors_image.jpg,path/to/warriors_logo.jpg,Chase Center

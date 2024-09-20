@@ -1,0 +1,10 @@
+com\basketball\league\api\controller\authentication\AuthenticationController.class
+com\basketball\league\api\exceptionHandler\GlobalExceptionHandler.class
+com\basketball\league\api\controller\player\PlayerController.class
+com\basketball\league\api\controller\user\UserController.class
+com\basketball\league\api\controller\playerStats\PlayerStatsController.class
+com\basketball\league\api\controller\game\GameController.class
+com\basketball\league\api\controller\tableField\TableFieldController.class
+com\basketball\league\api\error\ErrorDTO$ErrorDTOBuilder.class
+com\basketball\league\api\error\ErrorDTO.class
+com\basketball\league\api\controller\team\TeamController.class

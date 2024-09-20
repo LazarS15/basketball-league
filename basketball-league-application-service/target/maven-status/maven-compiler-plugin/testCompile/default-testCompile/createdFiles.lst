@@ -1,0 +1,6 @@
+com\basketball\league\application\CreateTeamCommandHandlerTest.class
+com\basketball\league\application\UpdateGameStateCommandHandlerTest.class
+com\basketball\league\application\CreateGameCommandHandlerTest.class
+com\basketball\league\application\CreatePlayerCommandHandlerTest.class
+com\basketball\league\application\fileReader\FileReader.class
+com\basketball\league\application\config\BeanTestConfiguration.class

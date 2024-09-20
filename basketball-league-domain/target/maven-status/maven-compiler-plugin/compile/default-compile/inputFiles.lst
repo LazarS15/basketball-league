@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\entity\base\AgregateRoot.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\entity\base\BaseEntity.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\entity\Game.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\valueobject\PlayerStatsId.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\entity\PlayerStats.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\exception\BasketballLeagueDomainException.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\valueobject\PlayerId.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\valueobject\TeamId.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\BasketballLeagueDomainService.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\valueobject\TableFieldId.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\entity\TableField.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\valueobject\base\BaseId.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\BasketballLeagueDomainServiceImpl.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\valueobject\GameId.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\entity\Player.java
+C:\Users\User\Desktop\basketball-league\basketball-league-domain\src\main\java\com\basketball\league\domain\entity\Team.java

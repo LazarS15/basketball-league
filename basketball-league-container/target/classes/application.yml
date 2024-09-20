@@ -1,0 +1,28 @@
+# application.yml
+server:
+  port: 8081
+
+logging:
+  level:
+    com.basketball.league: DEBUG
+
+spring:
+  jpa:
+    open-in-view: false
+    show-sql: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/basketball_league
+    username: postgres
+    password: Laki+maki777
+    driver-class-name: org.postgresql.Driver
+    platform: postgres
+
+application:
+  security:
+    jwt:
+      secret-key: 7e2c81d8ff1f63e1457d01c3aaba28d09d4abbdc4e8bb63e8d2a0feb7103acdd
+      expiration: 86400000 # 1 day
+      refresh-token:
+        expiration: 604800000 # 7 days
+
+
