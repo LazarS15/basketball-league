@@ -3,7 +3,7 @@ name: Build and deploy basketball league
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-deploy:
