@@ -1,2 +1,2 @@
 # basketball-league
-Basketball league backend project using clean code architecture, Spring Security and JWT together with Mockito and JUnit 5 for integration tests.
+Basketball league backend project is developed using Clean Code architecture and Domain-Driven Design. It integrates Spring Security and JWT for authentication and authorization, while Mockito and JUnit 5 are used for unit and integration testing.
