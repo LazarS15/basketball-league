@@ -13,7 +13,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/basketball_league
     username: postgres
-    password: Laki+maki777
+    password: postgres
     driver-class-name: org.postgresql.Driver
     platform: postgres
 
